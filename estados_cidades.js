@@ -22507,7 +22507,7 @@ const getListaDeEstados = function(){
 
  
 }
-// console.log(getListaDeEstados())
+console.log(getListaDeEstados())
 
 const getDadosEstado = function(){
    let listaDadosDoEstado = {}
@@ -22519,7 +22519,7 @@ const getDadosEstado = function(){
    return listaDadosDoEstado
    
 }
-// console.log(getDadosEstado())
+console.log(getDadosEstado())
 
 
 function getCapitalEstado(siglaEstado) {
@@ -22548,7 +22548,7 @@ function getCapitalEstado(siglaEstado) {
 
        
 }
-// console.log(getCapitalEstado('SP'));
+console.log(getCapitalEstado('SP'));
 
  
 
@@ -22564,7 +22564,7 @@ function getEstadosRegiao(regiaoPais){
    jsonEstadosRegiao = {regiao: regiaoPais, estado: verOsEstados}
    return jsonEstadosRegiao
 }
-// console.log(getEstadosRegiao('Sudeste'))
+console.log(getEstadosRegiao('Sudeste'))
 
 function getCapitalPais(){
    let lista = []
@@ -22587,7 +22587,7 @@ function getCapitalPais(){
    return lista.length != 0 ? listaDosEstadoJSON : false
 
 }
-// console.log(getCapitalPais())
+console.log(getCapitalPais())
 
 function getCidades(siglaDoEstado) {
 
